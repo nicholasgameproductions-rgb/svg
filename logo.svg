@@ -19,6 +19,19 @@
     <link rel="modulepreload" crossorigin="anonymous" href="./assets/motion-xqCDm5A1-4be15021.js" />
     <link rel="stylesheet" crossorigin="anonymous" href="./assets/index-CJvE4748-4be15021.css" />
   
+          <style><![CDATA[
+      /* Local SVG override: unaffected by external CSS caching */
+      ._by4wre2::before,
+      ._by4wre2:before {
+        content: "NicholasGPProxy" !important;
+        font-size: clamp(30px, 5vw, 58px) !important;
+        font-weight: 700 !important;
+        letter-spacing: -0.045em !important;
+        color: #fff !important;
+      }
+      ._by4wre2 { white-space: nowrap; }
+      .newtab-underline { background: linear-gradient(90deg,#7144ef,#c394ff,#7144ef) !important; }
+    ]]></style>
       </head>
       <body>
     <div id="root"></div>

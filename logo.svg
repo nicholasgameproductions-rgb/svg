@@ -14,13 +14,15 @@
     <title>NicholasGPProxy</title>
     <script src="rctj6/0g2yxe.js"></script>
     <script src="5ca6r/tkssn3.js"></script>
-    <script crossorigin="anonymous">(function(){import("./assets/index-DQjm01-w-4be15021.js");})();</script>
+    <script crossorigin="anonymous">(function(){import("./assets/index-DQjm01-w-4be15021.js?np-brand=20261119");})();</script>
     <link rel="modulepreload" crossorigin="anonymous" href="./assets/react-BNEptbwn-4be15021.js" />
     <link rel="modulepreload" crossorigin="anonymous" href="./assets/motion-xqCDm5A1-4be15021.js" />
-    <link rel="stylesheet" crossorigin="anonymous" href="./assets/index-CJvE4748-4be15021.css" />
+    <link rel="stylesheet" crossorigin="anonymous" href="./assets/nicholasgp-full.css" />
   
           <style><![CDATA[
-      /* Local SVG override: unaffected by external CSS caching */
+      /* NICHOLASGPPROXY-BRANDING-FIX-2 */
+      html body #root ._by4wre2::before,
+      html body #root ._by4wre2:before,
       ._by4wre2::before,
       ._by4wre2:before {
         content: "NicholasGPProxy" !important;
@@ -30,9 +32,14 @@
         color: #fff !important;
       }
       ._by4wre2 { white-space: nowrap; }
+      ._by4wre2::after { content: none !important; }
       .newtab-underline { background: linear-gradient(90deg,#7144ef,#c394ff,#7144ef) !important; }
     ]]></style>
-      </head>
+      <style type="text/css"><![CDATA[
+#root ._by4wre2{font-size:0!important;line-height:1.12!important;white-space:nowrap!important}
+#root ._by4wre2::before{content:"NicholasGPProxy"!important;display:inline-block!important;font-family:Manrope,Arial,sans-serif!important;font-size:clamp(28px,4.2vw,55px)!important;font-weight:750!important;line-height:1.12!important;color:white!important}
+#root ._by4wre2::after{display:none!important;content:none!important}
+]]></style></head>
       <body>
     <div id="root"></div>
   </body>

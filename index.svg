@@ -30,9 +30,9 @@
         ]]></script>
         <link rel="modulepreload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/nicholasgameproductions-rgb/svg@main/assets/react-BNEptbwn-4be15021.js" />
         <link rel="modulepreload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/nicholasgameproductions-rgb/svg@main/assets/motion-xqCDm5A1-4be15021.js" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nicholasgameproductions-rgb/svg@main/assets/index-CJvE4748-4be15021.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nicholasgameproductions-rgb/svg@main/assets/nicholasgp-full.css" />
         <script type="module"><![CDATA[
-          import("https://cdn.jsdelivr.net/gh/nicholasgameproductions-rgb/svg@main/assets/index-DQjm01-w-4be15021.js").catch(function (err) {
+          import("https://cdn.jsdelivr.net/gh/nicholasgameproductions-rgb/svg@main/assets/index-DQjm01-w-4be15021.js?np-brand=20261119").catch(function (err) {
             const root = document.getElementById("root");
             if (root) root.textContent = "NicholasGPProxy could not load its JavaScript. Check that the assets/ folder is uploaded to GitHub. " + err.message;
             console.error(err);
@@ -54,7 +54,11 @@
       ._by4wre2::after { content: none !important; }
       .newtab-underline { background: linear-gradient(90deg,#7144ef,#c394ff,#7144ef) !important; }
     ]]></style>
-      </head>
+      <style type="text/css"><![CDATA[
+#root ._by4wre2{font-size:0!important;line-height:1.12!important;white-space:nowrap!important}
+#root ._by4wre2::before{content:"NicholasGPProxy"!important;display:inline-block!important;font-family:Manrope,Arial,sans-serif!important;font-size:clamp(28px,4.2vw,55px)!important;font-weight:750!important;line-height:1.12!important;color:white!important}
+#root ._by4wre2::after{display:none!important;content:none!important}
+]]></style></head>
       <body><div id="root"></div></body>
     </html>
   </foreignObject>

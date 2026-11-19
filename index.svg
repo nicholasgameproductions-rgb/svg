@@ -39,7 +39,9 @@
           });
         ]]></script>
           <style><![CDATA[
-      /* Local SVG override: unaffected by external CSS caching */
+      /* NICHOLASGPPROXY-BRANDING-FIX-2 */
+      html body #root ._by4wre2::before,
+      html body #root ._by4wre2:before,
       ._by4wre2::before,
       ._by4wre2:before {
         content: "NicholasGPProxy" !important;
@@ -49,6 +51,7 @@
         color: #fff !important;
       }
       ._by4wre2 { white-space: nowrap; }
+      ._by4wre2::after { content: none !important; }
       .newtab-underline { background: linear-gradient(90deg,#7144ef,#c394ff,#7144ef) !important; }
     ]]></style>
       </head>

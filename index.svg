@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <foreignObject width="100%" height="100%">
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>NicholasGPProxy</title>
+        <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/nicholasgameproductions-rgb/svg@main/usy4j/mark-834cc7f9f1eda4fb.png" />
+        <style type="text/css">html,body,#root{margin:0;width:100%;height:100%;overflow:hidden;} body{background:#0b1020;}</style>
+        <script type="text/javascript"><![CDATA[
+          (function () {
+            const ns = "http://www.w3.org/1999/xhtml";
+            const d = document;
+            const root = d.getElementsByTagName("foreignObject")[0].firstElementChild;
+            const createElement = d.createElement.bind(d);
+            const createElementNS = d.createElementNS.bind(d);
+            Object.defineProperties(d, {
+              head: { configurable: true, get: () => root.querySelector("head") },
+              body: { configurable: true, get: () => root.querySelector("body") },
+              documentElement: { configurable: true, get: () => root }
+            });
+            d.createElement = function (name, options) {
+              return typeof name === "string" ? createElementNS(ns, name, options) : createElement(name, options);
+            };
+            d.createElementNS = function (namespace, name, options) {
+              return createElementNS(namespace == null ? ns : namespace, name, options);
+            };
+          })();
+        ]]></script>
+        <link rel="modulepreload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/nicholasgameproductions-rgb/svg@main/assets/react-BNEptbwn-4be15021.js" />
+        <link rel="modulepreload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/nicholasgameproductions-rgb/svg@main/assets/motion-xqCDm5A1-4be15021.js" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nicholasgameproductions-rgb/svg@main/assets/index-CJvE4748-4be15021.css" />
+        <script type="module"><![CDATA[
+          import("https://cdn.jsdelivr.net/gh/nicholasgameproductions-rgb/svg@main/assets/index-DQjm01-w-4be15021.js").catch(function (err) {
+            const root = document.getElementById("root");
+            if (root) root.textContent = "NicholasGPProxy could not load its JavaScript. Check that the assets/ folder is uploaded to GitHub. " + err.message;
+            console.error(err);
+          });
+        ]]></script>
+      </head>
+      <body><div id="root"></div></body>
+    </html>
+  </foreignObject>
+</svg>

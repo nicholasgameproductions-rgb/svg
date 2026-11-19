@@ -7,3 +7,29 @@
 ._by4wre2{font-family:Manrope,Geist,ui-sans-serif,system-ui,sans-serif;font-weight:650;font-size:clamp(27px,4.2vw,56px);line-height:1.12;letter-spacing:-.045em;text-align:center;color:var(--accent);overflow-wrap:anywhere}
 ._by4wre2::before{content:none!important;display:none!important}
 .newtab-underline{max-width:170px;margin-inline:auto}
+
+
+
+
+/* NicholasGPProxy homepage branding */
+h1._by4wre2::before,
+h1._by4wre2:before {
+  content: "NicholasGPProxy" !important;
+  display: inline-block !important;
+  font-size: clamp(28px, 4vw, 54px) !important;
+  font-weight: 750 !important;
+  letter-spacing: -2px !important;
+  color: #ffffff !important;
+  white-space: nowrap !important;
+}
+
+h1._by4wre2::after {
+  content: none !important;
+  display: none !important;
+}
+
+h1._by4wre2 {
+  text-align: center !important;
+  margin: 0 !important;
+}
+

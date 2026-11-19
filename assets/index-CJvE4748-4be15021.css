@@ -3,36 +3,7 @@
 /* NicholasGPProxy customization: hide sponsored and subscription upsells */
 .ads-notice-body,.ads-notice-plus,.plus-perks-toast,.plus-perks-toast-cta,.settings-upgrade,.settings-section:has(.settings-section-title) .settings-upgrade {display:none!important}
 
-/* NicholasGPProxy — homepage branding and subtle UI polish */
-._by4wre2::before {
-  content: "NicholasGPProxy" !important;
-  display: inline-block;
-  font-family: "Manrope Variable", Manrope, "Geist Variable", ui-sans-serif, system-ui, sans-serif;
-  font-size: clamp(29px, 5vw, 55px) !important;
-  font-weight: 750 !important;
-  letter-spacing: -0.055em !important;
-  line-height: 1.12 !important;
-  color: #faf8ff !important;
-  text-shadow: 0 3px 30px rgba(114, 58, 255, 0.23);
-}
-.newtab-underline {
-  height: 3px !important;
-  max-width: 160px;
-  margin: 15px auto 0 !important;
-  background: linear-gradient(90deg, #784cfb, #d3a9ff, #784cfb) !important;
-  box-shadow: 0 0 20px rgba(144, 85, 255, 0.5) !important;
-}
-._vj7757a {
-  border: 1px solid rgba(172, 150, 215, 0.28) !important;
-  border-radius: 16px !important;
-  background: rgba(17, 15, 27, 0.83) !important;
-  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.19) !important;
-  transition: border-color 180ms ease, box-shadow 180ms ease !important;
-}
-._vj7757a:focus-within {
-  border-color: rgba(183, 139, 255, 0.7) !important;
-  box-shadow: 0 0 0 3px rgba(137, 88, 237, 0.12), 0 14px 34px rgba(0, 0, 0, 0.2) !important;
-}
-@media (prefers-reduced-motion: reduce) {
-  ._vj7757a, .newtab-underline { animation: none !important; transition: none !important; }
-}
+/* NicholasGPProxy: permanent homepage heading, responsive sizing */
+._by4wre2{font-family:Manrope,Geist,ui-sans-serif,system-ui,sans-serif;font-weight:650;font-size:clamp(27px,4.2vw,56px);line-height:1.12;letter-spacing:-.045em;text-align:center;color:var(--accent);overflow-wrap:anywhere}
+._by4wre2::before{content:none!important;display:none!important}
+.newtab-underline{max-width:170px;margin-inline:auto}
